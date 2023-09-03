@@ -9,6 +9,6 @@ def fact(n):
 x =int(input('Enter the Length of Factorial: '))
 result = fact(x)
 print(result)
-#End
+#Endit
 
 
