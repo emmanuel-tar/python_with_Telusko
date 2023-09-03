@@ -29,5 +29,6 @@ for i in range(lst_len):
 print(lst)
 print(even)
 print(odd)
+print('Even:{} and Odd: {}'.format(even,odd))
 
 
