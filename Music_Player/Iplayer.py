@@ -37,7 +37,7 @@ def PlayMusic():
 
 #ICON ON THE APP
 
-image_icon = PhotoImage(file='../Music_Player/play_1.png')
+image_icon = PhotoImage(fil='play_1.png')
 #image_icon = ImageTK.PhotoImage(Image.open('ones.png'))
 
 root.iconphoto(False,image_icon)
