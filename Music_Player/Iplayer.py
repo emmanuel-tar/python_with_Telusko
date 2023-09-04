@@ -3,8 +3,10 @@ from tkinter import *
 from tkinter import Tk
 from tkinter import filedialog
 from pygame import mixer
+#from PIL import ImageTK, Image
 
 root = Tk()
+
 root.title('Iplayer')
 root.geometry('920x600+290+85')
 root.configure(background='#212121')
@@ -35,7 +37,8 @@ def PlayMusic():
 
 #ICON ON THE APP
 
-image_icon = PhotoImage(file='ones.png')
+image_icon = PhotoImage(file='../Music_Player/play_1.png')
+#image_icon = ImageTK.PhotoImage(Image.open('ones.png'))
 
 root.iconphoto(False,image_icon)
 
@@ -69,6 +72,7 @@ Button(root,image=ButtonPause,bg='#0f1a2b',
 #LABEL
 Menu = PhotoImage(file='log2.jpg')
 Label(root,image=Menu,bg='#0f1a2b').pack(padx=10,pady=50,side=RIGHT)
+
 
 Frame_Music = Frame(root,bd=2, relief=RIDGE)
 Frame_Music.place(x=330, y=350, width=560,height=250)
